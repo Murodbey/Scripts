@@ -1,7 +1,7 @@
 #!/bin/bash
 # user account create via scripti file
-
-file=/root/Scripts/Useradd-script/userslist.txt
+# /root/Scripts/Useradd-script/
+file=userslist.txt
 user=$(cat "file")
 
 for i in $user
