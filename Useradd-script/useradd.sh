@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ $(id -u) -eq 0 ]; then
-NEW_USERS="/userslist.txt"
+NEW_USERS="userslist.txt"
 HOME_BASE="/home/"
 cat ${NEW_USERS} |
 while read USER PASSWORD GROUP
