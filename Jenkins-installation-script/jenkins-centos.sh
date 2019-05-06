@@ -22,6 +22,6 @@ sudo systemctl status firewalld
 sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
 sudo firewall-cmd --reload
 
-sudo su - jenkins -s /bin/bash
-sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-read -p "Please enter a  password for $user:" password
+sudo su - jenkins -s /bin/bash cat /var/lib/jenkins/secrets/initialAdminPassword
+# sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+# read -p "Please enter a  password for $user:" password
