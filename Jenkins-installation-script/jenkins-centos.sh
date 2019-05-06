@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-# user=jenkins
+user=jenkins
 # for i in $user
-useradd jenkins
-for i jenkins
+useradd $user
 
 read -p "Please enter a  password for $i:" password
 echo "passwd" | passwd jenkins --stdin
@@ -25,4 +24,4 @@ sudo firewall-cmd --reload
 
 sudo su - jenkins -s /bin/bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-read -p "Please enter a  password for $i:" password
+read -p "Please enter a  password for $user:" password
