@@ -1,10 +1,10 @@
 #!/bin/bash
 # user account create via scripti file
 # 
-file=/root/Scripts/Useradd-script/userslist.txt
-user=$(cat "file")
+file=$(cat "/root/Scripts/Useradd-script/userslist.txt")
+# user=$(cat "file")
 
-for i in $user
+for i in $file
 do
 useradd $i
 echo "$i ALL=(ALL) NOPASSWD: ALL " >> /etc/sudoers ;
