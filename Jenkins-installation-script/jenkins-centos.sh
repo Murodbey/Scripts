@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-user=jenkins
-for i in $user
-useradd $i
+# user=jenkins
+# for i in $user
+useradd jenkins
+for i jenkins
 
 read -p "Please enter a  password for $i:" password
 echo "passwd" | passwd jenkins --stdin
