@@ -1,6 +1,5 @@
 #!/bin/bash
-# user account create via scripti file
-# 
+# user account create via script file
 
 export FILE=`cat userslist.txt`
 
