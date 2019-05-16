@@ -13,7 +13,7 @@ There are three things ShellCheck does primarily:
 
 ## ShellCheck installation on centos7
 
-```
+```python
 yum install epel-release -y
 ```
 
