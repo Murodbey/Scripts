@@ -19,7 +19,7 @@ yum install epel-release -y
 
 for amazon linux use the following command:
 
-```
+```python
 sudo amazon-linux-extras install epel
 ```
 
