@@ -25,7 +25,7 @@ sudo amazon-linux-extras install epel
 
 install shellcheck
 
-```
+```python
 yum install ShellCheck -y
 ```
 
