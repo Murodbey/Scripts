@@ -31,7 +31,7 @@ yum install ShellCheck -y
 
 ## ShellCheck installation on Debian/Ubuntu
 
-```
+```python
 apt-get install shellcheck
 ```
 
