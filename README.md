@@ -37,7 +37,7 @@ apt-get install shellcheck
 
 ## ShellCheck installation on Fedora
 
-```
+```python
 dnf install ShellCheck
 ```
 
